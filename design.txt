@@ -1,0 +1,23 @@
+Program: Math painting
+Description: An app that lets users provide starting coordinates of 2 geometrical shapes, rectangles and squares, along with their colors.
+The program will produce an image file canvas painting with the images drawn on them.
+
+Objects:
+Square
+    x
+    y
+    side
+    color
+    draw(canvas)
+rectangle
+    x
+    y
+    width
+    height
+    color
+    draw(canvas)
+Canvas:
+    width
+    height
+    color
+    make(imagepath)
